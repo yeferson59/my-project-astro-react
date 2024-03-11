@@ -1,0 +1,17 @@
+---
+import { titleWebsite } from "../var";
+import Button from "./Button";
+---
+
+<header class="bg-slate-200 h-14 w-full">
+    <nav class="container">
+        <div class="row-auto">
+            <Button text={titleWebsite} direc="/" isTitle classNameA="" classNameS=""/>
+        </div>
+        <div class="row-auto">
+            <Button text="Inicio" direc="/" classNameA=""/>
+            <Button text="Blog" direc="/blog" classNameA=""/>
+            <Button text="Tienda" direc="/store" classNameA=""/>
+        </div>
+    </nav>
+</header>

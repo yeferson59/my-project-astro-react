@@ -1,0 +1,19 @@
+---
+import { titleWebsite } from "../var";
+import Button from "./Button";
+
+
+---
+
+<footer class="bg-slate-200 h-40 w-full">
+    <nav class="flex flex-row justify-between h-full">
+        <div class="flex flex-col justify-center px-4">
+            <Button text={titleWebsite} direc="/" isTitle />
+        </div>
+        <div class="flex flex-col justify-center w-60">
+            <Button text="Inicio" direc="/"/>
+            <Button text="Blog" direc="/blog"/>
+            <Button text="Tienda" direc="/store"/>
+        </div>
+    </nav>
+</footer>
